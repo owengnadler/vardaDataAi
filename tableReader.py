@@ -376,6 +376,8 @@ def parse_table_block(block: str) -> List[Dict[str, str]]:
         row = {header[i]: parts[i] for i in range(len(header))}
         rows.append(row)
     return rows
+    #change
+
 
 def main():
     # Paste your table block here (must include header row)
